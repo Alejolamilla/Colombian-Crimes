@@ -34,14 +34,14 @@ def load_xlsx_dataframes(data_source = ".", xlsx_list = [], avoid = [], skip_row
 """
 dataframes = list with the dataframes that will be processed (list)
 old_column_position = which is the index of the columns to update (int)
-new_name = the new name that will have the columns
+new_name = the new name that will have the columns (str)
 """
-def update_columns_name(dataframes, old_column_position, new_name):
+def update_columns_name(dataframes, column_position, new_name):
     
     new_df_list = []
 
     for dataframe in dataframes:
-        dataframe = dataframe.rename(columns = {dataframe.columns[old_column_position] : new_name})
+        dataframe = dataframe.rename(columns = {dataframe.columns[column_position] : new_name})
 
         new_df_list.append(dataframe)
 
