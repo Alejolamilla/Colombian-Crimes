@@ -12,7 +12,7 @@ skip_footer = rows that will avoid at the end of the document (int)
 '''
 def load_xlsx_dataframes(data_source = ".", xlsx_list = [], avoid = [], skip_rows = 0, skip_footer = 0):
 
-    dataframes = {}
+    dataframes = []
     
     if xlsx_list == []:
         # use os.listdir to get all the files and delete the elements listed on "avoid"
@@ -26,7 +26,7 @@ def load_xlsx_dataframes(data_source = ".", xlsx_list = [], avoid = [], skip_row
         df = pd.read_excel(data_source + "/" + file, skiprows= skip_rows, skipfooter=skip_footer)
         df["DELITO"] = file
 
-        dataframes[file] = df
+        dataframes.append(df)
 
     return dataframes
 
@@ -46,3 +46,14 @@ def update_columns_name(dataframes, column_position, new_name):
         new_df_list.append(dataframe)
 
     return new_df_list
+
+
+"""
+df = dataframe (pandas object)
+col = Column to change position (str)
+pos = New position of the column (int)
+"""
+def move_column(df, col, pos):
+    col = df.pop(col)
+    df.insert(pos, col.name, col)
+    return df
