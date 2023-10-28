@@ -5,7 +5,7 @@ This project is a comprehensive analysis of crime reports from January to August
 In this project, I’ve conducted data cleaning, enrichment, and exploratory data analysis (EDA) on the crime reports dataset. The cleaned and enriched data was then used to create an interactive dashboard on Tableau.
 
 ## Interactive Dashboard
-Here is the link to the Tableau dashboard 
+Here is the link to the Tableau dashboard
 https://public.tableau.com/views/CrimenesenColombia/Dashboard22?:language=es-ES&:display_count=n&:origin=viz_share_link
 
 The Tableau dashboard provides a detailed view of each crime. You can click on a specific crime and explore various aspects such as:
