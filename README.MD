@@ -1,5 +1,5 @@
 # Crime Reports Analysis (January - August 2023)
-This project is a comprehensive analysis of crime reports from January to August 2023.
+This project is a comprehensive analysis of crime reports from January to August 2023, the data were taken from the Colombian Police open data and the National Administrative Department of Statistics of Colombia (DANE).
 
 ## Project Overview
 In this project, I’ve conducted data cleaning, enrichment, and exploratory data analysis (EDA) on the crime reports dataset. The cleaned and enriched data was then used to create an interactive dashboard on Tableau.
