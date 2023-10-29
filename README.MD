@@ -15,6 +15,17 @@ The most commonly used weapons
 The day of the week when the crime is most reported
 The dashboard also provides demographic insights into the victims, breaking down the data by age group and gender.
 
+## Conclusions and Insights
+After a thorough analysis of the crime reports from January to August 2023, several key insights were drawn:
+
+1. Crime Distribution: The distribution of crimes across different locations was not uniform. Certain areas reported higher crime rates, and the places with more reports are also the most densely populated places, but checking the ratio of crimes reported vs the population density we can see that the main cities of the country aren't the more dangerous as usually thought because, the main cities report more crimes but the probability to be a victim of any crime is higher in another place like towns, secondary cities, and less populated places, for example, the top 3 places where is higher the probability of be a victim of a crime are Granada, Ricaurte and San Pedro.
+
+2. Weapons Used: The data revealed patterns in the types of weapons used in different crimes. Most of the crimes reported are without the use of any weapon, especially for non-violent crimes, but the second most common weapons in general are firearms and used to be the most common in crimes like murders, Kidnapping, and terrorism; This represents a big problem since it is a country where the carrying of weapons is not legalized.
+
+3. Crime Timing: The frequency of crimes varied across different days of the week. The weekends are the days when more crimes are reported, especially violent crimes tend to be reported on weekends.
+
+4. Victim Demographics: There are more masculine victims in violent crimes except for domestic violence and sexual crimes where most of the victims are women. Also, the victims of all crimes are usually adults except for sex crimes where there is a large proportion of victims who are adolescents and minors.
+
 ## Repository Structure
 This repository is organized into two main folders: data and notebooks.
 
